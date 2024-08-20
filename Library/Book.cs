@@ -30,6 +30,21 @@ namespace Library
             this.Genres = _Genres;
         }
 
+        public bool BorrowBook(string readerID)
+        {
+            if (Borrowed == false)
+            {
+                for (int i = 0; i < GlobalData.; i++)
+                {
+                    
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         
     }
 }
